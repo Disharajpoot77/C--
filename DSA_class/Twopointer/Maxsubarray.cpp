@@ -16,7 +16,7 @@ int main(){
 	 if(max<current){
 		max=current;
 	 }
-	 if(current<0){
+	  if(current<0){
 		current=0;
 	 }
 	}
