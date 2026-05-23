@@ -17,7 +17,7 @@ class Node{
   void insert(Node* &head, int val){
 	Node* newNode= new Node(val);
 	Node* temp=head;
-	
+ 	
 	while(temp!=NULL){
 		temp=temp->next;	
 
