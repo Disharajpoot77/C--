@@ -12,7 +12,7 @@ int main(){
 	int max=arr[0];
 	int current=0;
 	for(int i=0; i<n; i++){
-     current+=arr[i];
+      current+=arr[i];
 	 if(max<current){
 		max=current;
 	 }
