@@ -13,7 +13,7 @@ int main(){
 	int right=arr[0];
 	for(int i=1; i<n; i++){
 		if(arr[i]>right){
-			right=arr[i];
+			 right=arr[i];
 			// cout<<"right"<<right<<endl;
 		}
 		if(arr[i]<left){
