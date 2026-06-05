@@ -1,5 +1,5 @@
 #include<iostream>
-#include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
 	int n;
@@ -20,6 +20,13 @@ int main(){
 
 	for(int i=0; i<n;i++){
 		reverse(arr[i].begin(),arr[i].end());
+	}
+
+	for(int i=0;i<n;i++){
+		for(int j=0;j<n;j++){
+			cout<<arr[i][j]<<" ";
+		}
+		cout<<endl;
 	}
 
 }
