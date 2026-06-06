@@ -21,7 +21,6 @@ int main(){
 			// cout<<"temp"<<temp<<endl;
 			if(temp>result){
 				result=temp;
-				// cout<<"result"<<result<<endl;
 			}
 			left=arr[i];
 			right=arr[i];
