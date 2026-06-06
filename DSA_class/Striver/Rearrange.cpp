@@ -10,7 +10,7 @@ int main(){
         cin>>arr[i];
     }
  
-     int pos[n], neg[n];
+    int pos[n], neg[n];
     int m=0;
     int p=0;
 
