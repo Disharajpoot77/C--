@@ -17,7 +17,7 @@ int main(){
             cout<<nums[i]<<" ";
             }
         }
-
+  
          int temp=nums[0];
         for(int i=1; i<n; i++){
             if(nums[i]==temp+1){
