@@ -2,8 +2,12 @@
 #include<vector>
 using namespace std;
 int main(){
-	  int removeElement(vector<int>& nums, int val){
-        int n=nums.size();
+		int n,val;
+		cin>>n>>val;
+		vector<int> nums(n);
+		for(int i=0; i<n; i++){
+			cin>>nums[i];
+		}
         int k=0;
         for(int i=0; i<n; i++){
             if(nums[i]!=val){
@@ -11,7 +15,8 @@ int main(){
               k++;
             }
         }
-        return k;
+         cout<<k;
+		return 0;
 	}
-}
+
   
