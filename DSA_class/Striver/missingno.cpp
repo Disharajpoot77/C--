@@ -13,7 +13,7 @@ class Solution {
               break;
             }
         }
-        return temp+1;
+         cout<<temp+1;
 
     }
 };
