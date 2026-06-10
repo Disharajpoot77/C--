@@ -12,7 +12,7 @@ int main(){
       while(fast->next!=NULL){
         fast=fast->next;
          slow=slow->next;
-            }
+         }
       ListNode* del=slow->next;
      slow->next=slow->next->next;
       delete del;
