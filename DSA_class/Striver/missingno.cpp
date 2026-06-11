@@ -14,6 +14,5 @@ class Solution {
             }
         }
          cout<<temp+1;
-
     }
 };
