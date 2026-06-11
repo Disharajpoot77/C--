@@ -21,7 +21,7 @@ int main(){
 		}
 		if(arr[i]==arr[L+1]){
 			count++;
-			L=arr[i];
+		 	 L=arr[i];
 		}
 		else if(arr[i]!=arr[L+1]){
 			break;
