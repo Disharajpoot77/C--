@@ -12,7 +12,7 @@ int main(){
 	int left=arr[0];
 	int right=arr[0];
 	for(int i=1; i<n; i++){
-		if(arr[i]>right){
+		 if(arr[i]>right){
 			 right=arr[i];
 			// cout<<"right"<<right<<endl;
 		}
