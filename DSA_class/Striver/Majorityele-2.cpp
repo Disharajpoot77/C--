@@ -13,7 +13,7 @@ public:
      for(int i=0; i<n; i++){
         store[nums[i]]++;
         if(store[nums[i]]==min){
-            ls.push_back(nums[i]);
+             ls.push_back(nums[i]);
         }
          if(ls.size()==2)break;
      }
