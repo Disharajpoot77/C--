@@ -14,9 +14,8 @@ int main(){
 	int R=n-1;
 	for(int i=n-1; i>0; i--){
 		if(arr[L]<arr[R]){
-				
 			  	sort(arr+L+1,arr+n);
-				int index=upper_bound(arr+L+1,arr+n,arr[L])-arr;
+			 	int index=upper_bound(arr+L+1,arr+n,arr[L])-arr;
 				swap(arr[L],arr[index]);
 				break;
 		}
