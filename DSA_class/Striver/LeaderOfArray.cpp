@@ -13,7 +13,7 @@ int main(){
 	int count=0;
 	int element=0;
 	for(int i=0;i<n;i++){
-		if(i!=n-1 && arr[i]>element){
+		 if(i!=n-1 && arr[i]>element){
 			element=arr[i]; 
 		}
 		else if(arr[i]<=element){
