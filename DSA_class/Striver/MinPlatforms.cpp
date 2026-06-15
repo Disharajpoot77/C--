@@ -1,28 +1,27 @@
-#include<iostream>
-using namespace std;
-int main(){
-	int n;
-	cin>>n;
-	int start[n];
-	for(int i=0;i<n;i++){
-		cin>>start[i];
-	}
-	int end[n];
-	for(int i=0;i<n;i++){
-		cin>>end[i];
-	}
-        int cnt=0;
-        for(int i=0; i<n; i++){
-            if(i==0){
-				cout<<"one"<<cnt<<endl;
-                cnt++;
+class Solution {
+public:
+    int findPlatform(vector<int>& Arrival, vector<int>& Departure) {
+        int n = Arrival.size();
+
+        sort(Arrival.begin(), Arrival.end());
+        sort(Departure.begin(), Departure.end());
+
+        int i = 1, j = 0;
+        int platforms = 1;
+        int ans = 1;
+
+        while (i < n && j < n) {
+            if (Arrival[i] <= Departure[j]) {
+                platforms++;
+                ans = max(ans, platforms);
+                i++;
             }
-            else if(start[i]<end[i-1]){
-				cout<<cnt<<endl;
-                cnt++;
+            else {
+                platforms--;
+                 j++;
             }
         }
-		cout<<cnt;
-	 
-	return 0;
-}
+
+        return ans;
+    }
+};
