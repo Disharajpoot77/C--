@@ -1,5 +1,7 @@
-class Solution {
-public:
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
     int findPlatform(vector<int>& Arrival, vector<int>& Departure) {
         int n = Arrival.size();
 
@@ -24,4 +26,3 @@ public:
 
         return ans;
     }
-};
